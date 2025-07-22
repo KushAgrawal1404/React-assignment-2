@@ -1,0 +1,78 @@
+.homepage-container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+.homepage-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 rgba(44, 62, 80, 0.08);
+  padding: 2.5rem 3.5rem;
+  max-width: 520px;
+  width: 100%;
+}
+
+.homepage-title {
+  font-size: 2.5rem;
+  color: #2d5be3;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.homepage-section h2 {
+  color: #2ec4b6;
+  margin-bottom: 0.5em;
+}
+
+.homepage-section {
+  margin-bottom: 2rem;
+}
+
+.categories-list {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.category-link {
+  background: #e0faf7;
+  color: #2ec4b6;
+  padding: 0.5em 1.2em;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1.05em;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  border: 1px solid #2ec4b6;
+}
+.category-link:hover {
+  background: #2ec4b6;
+  color: #fff;
+}
+
+.popular-books-list {
+  margin: 0.5em 0 0 0;
+  padding: 0 0 0 1.2em;
+}
+
+.book-link {
+  color: #ffb400;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.book-link:hover {
+  color: #b97a00;
+  text-decoration: underline;
+}
+
+.book-author {
+  color: #6c757d;
+  font-size: 0.98em;
+} 
