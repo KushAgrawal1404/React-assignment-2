@@ -10,6 +10,7 @@ const initialState = {
       category: 'Sci-Fi',
       rating: 4.8,
       popular: true,
+      coverImage: "https://m.media-amazon.com/images/I/71oO1E-XPuL.jpg",
     },
     {
       id: 'id_2',
@@ -19,6 +20,7 @@ const initialState = {
       category: 'Fiction',
       rating: 4.9,
       popular: true,
+      coverImage: "https://m.media-amazon.com/images/I/71smIoGNeiL._UF1000,1000_QL80_.jpg",
     },
     {
       id: 'id_3',
@@ -28,6 +30,7 @@ const initialState = {
       category: 'Non-Fiction',
       rating: 4.7,
       popular: true,
+      coverImage: "https://m.media-amazon.com/images/I/713jIoMO3UL.jpg",
     },
     {
       id: 'id_4',
@@ -37,6 +40,7 @@ const initialState = {
       category: 'Fiction',
       rating: 4.8,
       popular: false,
+      coverImage: "https://m.media-amazon.com/images/I/71jD4jMityL._UF1000,1000_QL80_.jpg",
     },
     {
       id: 'id_5',
@@ -46,6 +50,7 @@ const initialState = {
       category: 'Fiction',
       rating: 4.6,
       popular: false,
+      coverImage: "https://m.media-amazon.com/images/I/71wANojhEKL.jpg",
     },
     {
       id: 'id_6',
@@ -55,6 +60,7 @@ const initialState = {
       category: 'Sci-Fi',
       rating: 4.5,
       popular: false,
+      coverImage: "https://m.media-amazon.com/images/I/81LT+V9G4IL._UF1000,1000_QL80_.jpg",
     },
   ],
 }

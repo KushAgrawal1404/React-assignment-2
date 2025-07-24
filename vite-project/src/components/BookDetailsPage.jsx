@@ -22,10 +22,15 @@ const BookDetailsPage = () => {
   return (
     <div className="book-details-container">
       <div className="book-details-card">
-        <h1 className="book-title">{book.title}</h1>
-        <h3 className="book-author">by {book.author}</h3>
+        <img
+          src={book.coverImage}
+          alt={book.title + ' cover'}
+          className="book-cover"
+        />
+        <div className="book-title">{book.title}</div>
+        <div className="book-author">by {book.author}</div>
+        <div className="book-description">{book.description}</div>
         <div className="book-category">{book.category}</div>
-        <div className="book-description"><strong>Description:</strong> {book.description}</div>
         <div className="book-rating">Rating: {book.rating}</div>
         <Link className="back-link" to="/books">Back to Browse</Link>
       </div>
@@ -33,4 +38,4 @@ const BookDetailsPage = () => {
   )
 }
 
-export default BookDetailsPage 
+export default BookDetailsPage

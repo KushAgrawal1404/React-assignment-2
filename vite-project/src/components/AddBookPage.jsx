@@ -16,6 +16,7 @@ const AddBookPage = () => {
     description: '',
     category: categories[0],
     rating: '',
+    coverImage: '', // Added coverImage field to the form state
   })
   // State for form validation errors
   const [errors, setErrors] = useState({})
@@ -32,6 +33,7 @@ const AddBookPage = () => {
     if (!form.description) errs.description = 'Description is required'
     if (!form.category) errs.category = 'Category is required'
     if (!form.rating || isNaN(form.rating) || form.rating < 0 || form.rating > 5) errs.rating = 'Rating must be 0-5'
+    if (!form.coverImage) errs.coverImage = 'Cover Image URL is required'
     return errs
   }
 
@@ -88,6 +90,11 @@ const AddBookPage = () => {
             <label>Rating (0-5): <input name="rating" value={form.rating} onChange={handleChange} type="number" min="0" max="5" step="0.1" /></label>
             {errors.rating && <span className="addbook-error"> {errors.rating}</span>}
           </div>
+          <div>
+            {/* Cover Image URL input */}
+            <label>Image Link: <input name="coverImage" value={form.coverImage} onChange={handleChange} placeholder="Enter cover image URL" /></label>
+            {errors.coverImage && <span className="addbook-error"> {errors.coverImage}</span>}
+          </div>
           {/* Submit button */}
           <button type="submit">Add Book</button>
         </form>
@@ -96,4 +103,4 @@ const AddBookPage = () => {
   )
 }
 
-export default AddBookPage 
+export default AddBookPage

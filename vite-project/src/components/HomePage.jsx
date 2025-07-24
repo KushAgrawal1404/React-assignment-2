@@ -32,7 +32,7 @@ const HomePage = () => {
               <li key={book.id}>
                 {/* Link to book details */}
                 <Link className="book-link" to={`/book/${book.id}`}>{book.title}</Link>
-                <span className="book-author">by {book.author}</span>
+                <span className="book-author"> by {book.author}</span>
               </li>
             ))}
           </ul>
