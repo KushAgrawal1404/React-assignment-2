@@ -16,7 +16,7 @@ const AddBookPage = () => {
     description: '',
     category: categories[0],
     rating: '',
-    coverImage: '', // Added coverImage field to the form state
+    coverImage: '', 
   })
   // State for form validation errors
   const [errors, setErrors] = useState({})

@@ -55,17 +55,12 @@ const BrowseBooksPage = () => {
               <div className="book-card-title">{book.title}</div>
               <div className="book-card-author">by {book.author}</div>
               <div className="book-card-description" style={{ fontSize: '0.95em', color: '#444', marginBottom: '0.4em' }}>{book.description}</div>
-              {/* <div className="book-card-category">{book.category}</div>
-            
+
               <div className="book-card-footer">
+                <div className="book-card-category">{book.category}</div>
                 <div className="book-card-rating">Rating: {book.rating}</div>
                 <Link className="details-link" to={`/book/${book.id}`}>View Details</Link>
-              </div> */}
-              <div className="book-card-footer">
-  <div className="book-card-category">{book.category}</div>
-  <div className="book-card-rating">Rating: {book.rating}</div>
-  <Link className="details-link" to={`/book/${book.id}`}>View Details</Link>
-</div>
+              </div>
 
             </div>
           ))}
