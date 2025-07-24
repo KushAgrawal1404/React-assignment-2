@@ -12,3 +12,4 @@
 # This will start the app locally. Open the URL shown in your terminal (usually http://localhost:5173) to view the app in your browser.
 
 # GitHub Link: https://github.com/KushAgrawal1404/React-assignment-2
+Note: Check directory before 1st step. (Make sure you are on vite-project). 
